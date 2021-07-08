@@ -1,0 +1,11 @@
+<?php
+/*
+ESTA PAGINA RECIBIO UN ARREGLO DE VALORES ALMACENADOS EN LA VARIABLE GLOBAL '$_GET' 
+DONDE CADA ELEMENTO SE IDENTIFICA CON UN NOOMBRE, MISMO QUE SE USA PARA LLAMARLOS
+ */
+
+echo '<h1>'. $_GET['nombre'].'</h1>';
+echo '<h1>'. $_GET['apellidos']. '</h1>';
+
+var_dump($_GET);s
+?>
