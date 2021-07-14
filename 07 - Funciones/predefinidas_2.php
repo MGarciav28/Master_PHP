@@ -31,8 +31,44 @@ echo "<br>";
 
 //eliminar variables o indices de arrays
 $year = 2020;
+echo "$year";
+
 unset($year);
 var_dump($year);
+echo "<br>";
 
+//Comprobar si variable esta vacia
+$texto=null;
+
+if(empty($texto)){
+    echo "La variable esta vacia";
+}else{
+    echo "La variable tiene contenido";
+}
+
+echo "<br>";
+
+
+//Contar caracteres en un String
+
+$cadena ="12345";
+echo strlen($cadena);
+echo "<br>";
+
+//Encontrat caracterc en una cadena
+
+$frase = "La vida es bella";
+echo strpos($frase, "vida");
+echo "<br>";
+
+//Reeemplazar palabras de un string
+$frase = str_replace("vida", "moto", $frase);
+echo $frase;
+echo "<br>";
+
+//MAYUSCULAS y minusculas
+echo strtolower($frase);
+echo "<br>";
+echo strtoupper($frase);
 
 ?>
