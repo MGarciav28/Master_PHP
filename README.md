@@ -1,4 +1,3 @@
 ### Encabezado
-
-Repositorio donde guardo el avance en las practicas del curso
-Master en PHP de Victor Robles en Udemy
+Repositorio donde guardo los avances en las practicas
+del curso _"Master en PHP de Victor Robles"_
